@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.header-section {
+  background: rgba(229, 84, 115, 0.1);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 30px;
+  max-width: 1000px;
+  height: 650px;
+}
+.intro h1 {
+  font-size: 45px;
+  margin-bottom: 25px;
+  color: #181818;
+}
+.intro p {
+  color: rgba(39, 39, 39, 0.7);
+}
+.intro button {
+  padding: 20px 40px;
+  background-color: #e55473;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: #e55473;
+}
+
+.flower-img img {
+  padding-top: 40px;
+  height: 650px;
+}
+.feature-section {
+  margin: 80px 0;
+}
+.feature-txt {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.feature-txt h2 {
+  font-size: 35px;
+  margin-bottom: 3px;
+}
+.feature-txt p {
+  margin: 2px;
+  color: rgba(39, 39, 39, 0.7);
+}
+.feature-flowers {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.feature-card img {
+  background-color: #a7216226;
+  width: 350px;
+  height: 350px;
+  margin: 9px;
+  text-align: center;
+  padding: 70px 70px 0px 70px;
+  border-radius: 50% 50% 0 0;
+}
+.feature-card p {
+  text-align: center;
+  text-decoration: underline;
+}
+.delivery-section {
+  margin-bottom: 80px;
+}
+.delivery-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
