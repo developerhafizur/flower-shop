@@ -5,10 +5,40 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-.header-section {
-  background: rgba(229, 84, 115, 0.1);
+header{
+  background: rgba(204, 94, 118, 0.1);
 }
-.header-container {
+.header-container{
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo img{
+  width: 100px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+ul li {
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  color: rgb(29, 8, 8);
+}
+/*header end here*/
+
+.welcome-section {
+  background: rgba(204, 94, 118, 0.1);
+}
+.welcome-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,15 +47,15 @@
   max-width: 1000px;
   height: 650px;
 }
-.intro h1 {
+.wel-intro h1 {
   font-size: 45px;
   margin-bottom: 25px;
   color: #181818;
 }
-.intro p {
+.wel-intro p {
   color: rgba(39, 39, 39, 0.7);
 }
-.intro button {
+.wel-intro button {
   padding: 20px 40px;
   background-color: #e55473;
   border-radius: 8px;
@@ -39,6 +69,8 @@
   padding-top: 40px;
   height: 650px;
 }
+
+/*feature section*/
 .feature-section {
   margin: 80px 0;
 }
@@ -49,19 +81,18 @@
 }
 .feature-txt h2 {
   font-size: 35px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 }
 .feature-txt p {
   margin: 2px;
   color: rgba(39, 39, 39, 0.7);
 }
 .feature-flowers {
-  margin-top: 10px;
+  padding-top: 30px;
   display: flex;
   justify-content: center;
 }
 .feature-card img {
-  background-color: #a7216226;
   width: 350px;
   height: 350px;
   margin: 9px;
@@ -69,12 +100,22 @@
   padding: 70px 70px 0px 70px;
   border-radius: 50% 50% 0 0;
 }
+ .feature-card1 img{
+  background-color: antiquewhite;
+}
+.feature-card2 img{
+  background-color: #0597a026;
+}
+.feature-card3 img{
+  background-color: #477d1126;
+}
 .feature-card p {
   text-align: center;
   text-decoration: underline;
 }
+/*delivery-section*/
 .delivery-section {
-  margin-bottom: 80px;
+  padding: 60px 0;
 }
 .delivery-container {
   display: flex;
@@ -84,7 +125,16 @@
   max-width: 1000px;
   text-align: center;
 }
-.ofcontainer {
+.del p{
+  margin-top: 10px;
+}
+
+/*signUp section*/
+.signup-section{
+  margin: 30px 0;
+  padding: 30px 0;
+}
+.signup-container {
   max-width: 1000px;
   margin: auto;
   display: flex;
@@ -92,20 +142,40 @@
   align-items: center;
   gap: 50px;
 }
-.singup {
+.signup {
   text-align: center;
 }
-.singup h2 {
+.signup h2 {
   margin: 20px 0px;
 }
-.singup p {
+.off-red{
+  color: red;
+}
+.signup p {
   margin: 20px 0px;
 }
-
-.sct {
+.sign-dis {
   color: rgba(39, 39, 39, 0.6);
 }
 
+.subtn{
+  padding: 15px 30px;
+  background-color: #e55473;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+
+
+/*social section*/
+.social-section{
+  padding:  60px 0;
+}
+.social-container {
+  max-width: 1000px;
+  margin: auto;
+}
 .social-dis {
   max-width: 500px;
   margin: auto;
@@ -118,10 +188,7 @@
   color: rgba(39, 39, 39, 0.6);
 }
 
-.social-container {
-  width: 1000px;
-  margin: auto;
-}
+
 .social-img {
   display: flex;
   justify-content: center;
@@ -135,12 +202,15 @@
   margin: 0 10px;
 }
 
+/*subscription section*/
+
 .subscription-section {
   margin: 50px 0;
+  padding: 30px 0;
 }
 .subscription-container {
-  background-image: url("Flower\ Asset/Rectangle 9.png");
-  width: 1000px;
+  background-image: url("asset/rectangle9.png");
+  max-width: 1000px;
   height: 300px;
   margin: auto;
   display: flex;
@@ -149,10 +219,10 @@
   align-items: center;
   text-align: center;
 }
-.subs-in h3 {
+.subs-dis h3 {
   font-size: 30px;
 }
-.subs-in p {
+.subs-dis p {
   margin-top: 15px;
 }
 .subs-form .src {
@@ -170,7 +240,7 @@
   outline: none;
   border: none;
 }
-
+/*footer section*/
 .footer-section {
   background-color: black;
   color: white;
@@ -192,6 +262,6 @@
 .footer-container span {
   color: red;
 }
-.footer-container .cp {
+.footer-container .copyright {
   color: rgba(255, 255, 255, 0.4);
 }
