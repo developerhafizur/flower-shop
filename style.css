@@ -76,10 +76,38 @@
 .delivery-section {
   margin-bottom: 80px;
 }
-.delivery-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-    text-align: center;
+.delivery-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.ofcontainer {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+}
+.subscription-container {
+  background-image: url("Flower\ Asset/Rectangle 9.png");
+  width: 1000px;
+  height: 300px;
+  margin: auto;
+}
+.footer-section {
+  background-color: black;
+  color: white;
+}
+.footer-container {
+  margin: auto;
+  max-width: 500px;
+  height: 300px;
+  text-align: center;
+}
+.footer-container h2{
+    font-size: 45px;
+    padding: 30px 0px;
+}
+.footer-container p{
+    padding: 10px 0;
 }
